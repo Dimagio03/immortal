@@ -33,11 +33,6 @@
 .cursor-dot.active {
 	  --size: 0;
 }
-a {
-	  cursor: pointer;
-}
 a:hover {
   	text-decoration: none;
 }
-
- 
