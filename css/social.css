@@ -22,19 +22,19 @@ body {margin:0;height:2000px;}
 }
 
 .facebook {
-  background: transparent;
-  color: #d51bc3;
+  background: #3B5998;
+  color: white;
 }
 
 .twitter {
-  background: transparent;
-  color: #d51bc3;
+  background: #25D366;
+  color: white;
 }
 
 
 .linkedin {
-  background: transparent;
-  color: #d51bc3;
+  background: linear-gradient(45deg, #405DE6, #5851db, #833ab4,#c13584, #e1306c,#fd1d1d);
+  color: white;
 }
 
 .content {
