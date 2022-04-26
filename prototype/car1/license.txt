@@ -1,11 +1,11 @@
 Model Information:
-* title:	Range Rover Evoque
-* source:	https://sketchfab.com/3d-models/range-rover-evoque-1bc1e752f8e24fc7bd277e1eb5cee2ee
-* author:	iSteven (https://sketchfab.com/Steven007)
+* title:	Pagani Huayra-BC | Metallic Beryllium Orange |
+* source:	https://sketchfab.com/3d-models/pagani-huayra-bc-metallic-beryllium-orange-f3a4774883284e748b9081d2b2c60ed5
+* author:	Abhay Singh (https://sketchfab.com/AbhayS)
 
 Model License:
-* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
-* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Range Rover Evoque" (https://sketchfab.com/3d-models/range-rover-evoque-1bc1e752f8e24fc7bd277e1eb5cee2ee) by iSteven (https://sketchfab.com/Steven007) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+This work is based on "Pagani Huayra-BC | Metallic Beryllium Orange |" (https://sketchfab.com/3d-models/pagani-huayra-bc-metallic-beryllium-orange-f3a4774883284e748b9081d2b2c60ed5) by Abhay Singh (https://sketchfab.com/AbhayS) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
