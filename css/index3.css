@@ -1,48 +1,82 @@
-html,
-body {
-  height: 100%;
-}
-body {
-  background-color: #f7f7f7;
-}
-.u-color-white {
-  color: #fff;
-}
-.awesome.content {
-  text-align: center;
-}
-.awesome.title,
-.incredible.subtitle {
-  font-size: 3.5em;
-  font-weight: bold;
-  letter-spacing: 0.5em;
-  text-transform: uppercase;
-  margin: 0;
-}
-.awesome.title.small,
-.incredible.subtitle.small {
-  letter-spacing: 0.1em;
-}
-.incredible.subtitle {
-  margin: 20px 0;
-  font-size: 1.4em;
-  letter-spacing: 0.2em;
-  font-weight: normal;
-  opacity: 0.8;
-}
-.hilarious.button {
-  transition: all 0.4s linear;
-  box-shadow: inset 0 0 0 0 #222;
-}
-.hilarious.button:hover {
-  box-shadow: inset 0 100px 0 0 #222;
-  color: #fff;
-}
-.hilarious.button.u-color-white {
-  color: #fff;
-  box-shadow: inset 0 0 0 0 #fff;
-}
-.hilarious.button.u-color-white:hover {
-  box-shadow: inset 0 100px 0 0 #fff;
-  color: #333;
-}
+      button {
+        border: none;
+        margin: 100px;
+        padding: 20px 40px;
+        font-size: 44px;
+        position: relative;
+        background: transparent;
+        color: #ffa500;
+        text-transform: uppercase;
+        border: 3px solid #ffa500;
+        cursor: pointer;
+        transition: all 0.7s;
+        overflow: hidden;
+        border-radius: 100px;
+      }
+
+      button:hover {
+        color: #000;
+      }
+      span {
+        transition: all 0.7s;
+        z-index: -1;
+      }
+
+      button .first {
+        content: "";
+        position: absolute;
+        right: 100%;
+        top: 0;
+        width: 25%;
+        height: 100%;
+        background: #ffa500;
+      }
+
+      button:hover .first {
+        top: 0;
+        right: 0;
+      }
+      button .second {
+        content: "";
+        position: absolute;
+        left: 25%;
+        top: -100%;
+        height: 100%;
+        width: 25%;
+        background: #ffa500;
+      }
+
+      button:hover .second {
+        top: 0;
+        left: 50%;
+      }
+
+      button .third {
+        content: "";
+        position: absolute;
+        left: 50%;
+        height: 100%;
+        top: 100%;
+        width: 25%;
+        background: #ffa500;
+      }
+
+      button:hover .third {
+        top: 0;
+        left: 25%;
+      }
+
+      button .fourth {
+        content: "";
+        position: absolute;
+        left: 100%;
+        top: 0;
+        height: 100%;
+        width: 25%;
+        background: #ffa500;
+      }
+
+      button:hover .fourth {
+        top: 0;
+        left: 0;
+      }

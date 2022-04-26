@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Helicopter prototype 1</title>
+    <title>human prototype</title>
     <style>
         body
         {
@@ -41,17 +41,17 @@
     var loader = new GLTFLoader();
 
     var obj;
-    loader.load("person/scene.gltf", function (gltf) {
+    loader.load("woman/scene.gltf", function (gltf) {
         obj = gltf.scene;
         scene.add(gltf.scene);
     });
     scene.Background = new THREE.Color(0xFFFFFF);
     var light = new THREE.HemisphereLight(0xffffff, 0x000000, 2);
     scene.add(light);
-    camera.position.set(0, 2, 20);
+    camera.position.set(0, 3, 15);
     function animate(){
         requestAnimationFrame(animate);
-        obj.rotation.y += 0.01;
+        obj.rotation.y += 0.02;
         renderer.render(scene,camera);
     }
     animate();
